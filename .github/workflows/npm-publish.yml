@@ -17,7 +17,7 @@ jobs:
       # This action sets up a Node.js environment for use in actions.
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '12'
           registry-url: 'https://registry.npmjs.org'
 
       # Install dependencies using npm ci for a clean, reproducible environment, and npm install to install and update packages.
